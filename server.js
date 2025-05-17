@@ -11,7 +11,7 @@ const pool = new Pool({
   host: 'localhost',
   database: 'heroes_db',
   password: 'S0@p7398',
-  port: 5432
+  port: 5433
 });
 
 app.use(cors());
